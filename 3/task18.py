@@ -1,0 +1,23 @@
+# abc_2026
+# Fedosov Artem
+
+
+#todo: Заданы множества
+#Даны читатели книг
+readers_books = {'id3', 'id5', 'id9', 'id8', 'id2', 'id1' }
+
+#Даны читатели газет
+readers_magazines = { 'id8', 'id2', 'id1', 'id4', 'id6', 'id7', 'id10'}
+
+#Найти пользователей кто читает и книги и газеты
+
+
+# Заданы множества
+readers_books = {'id3', 'id5', 'id9', 'id8', 'id2', 'id1'}
+readers_magazines = {'id8', 'id2', 'id1', 'id4', 'id6', 'id7', 'id10'}
+
+# Находим пересечение множеств
+both_readers = readers_books & readers_magazines
+
+# Выводим результат
+print("Читают и книги, и газеты:", both_readers)
